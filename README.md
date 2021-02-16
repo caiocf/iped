@@ -216,8 +216,9 @@ cd ~/IPED/iped
 * Executando o IPED [https://github.com/sepinf-inc/IPED/wiki/Beginner's-Start-Guide]
 
 
-Primeiro passo e ter uma imagem do disco ou pendrive e etc (pode ser obter através do comando DD do linux e demais ferramentas ou casesSuites de Hardwares);
-No meu caso tenho uma imagem do Windows 7 e vai gerar o conteudo indexado na pasta ../evidencias/INDEXIPED
+Primeiro passo e ter uma imagem do disco ou pendrive e etc (pode ser obter através do comando: dd, ccdc,casesSuites de Hardwares  ou etc);
+
+No meu caso tenho uma imagem do Windows 7 (`IE10WIN7-20180115-181028.img` dentro da pasta `evidencias`) e vai gerar o conteudo indexado na pasta ../evidencias/INDEXIPED
 ```bash
 cd ~/IPED/iped
 mkdir -p ../evidencias/INDEXIPED
