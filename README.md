@@ -167,7 +167,6 @@ source /etc/environment
 
 
 * Configurando para abrir Pre visualização no libreoffice e VLC (OPCIONAL este passo):
-* 
 ```bash
 apt-get install -y libreoffice libreoffice-java-common \
       libreoffice-gtk2 \      
@@ -200,6 +199,9 @@ wget --progress=bar:force https://github.com/sepinf-inc/IPED/releases/download/$
 ```
 
 * Configurando o IPED
+
+Vale a pena conferir neste link [https://github.com/sepinf-inc/IPED/wiki/User-Manual#Profiles]
+Neste link do Youtube se apresenta varias configurações interessantes [https://www.youtube.com/watch?v=A1NDvVtdEJY]
 
 ```bash
 su - usuario
