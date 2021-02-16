@@ -167,6 +167,7 @@ source /etc/environment
 
 
 * Configurando para abrir Pre visualização no libreoffice e VLC (OPCIONAL este passo):
+* 
 ```bash
 apt-get install -y libreoffice libreoffice-java-common \
       libreoffice-gtk2 \      
@@ -199,6 +200,7 @@ wget --progress=bar:force https://github.com/sepinf-inc/IPED/releases/download/$
 ```
 
 * Configurando o IPED
+
 ```bash
 su - usuario
 cd ~/IPED/iped
@@ -210,6 +212,8 @@ cd ~/IPED/iped
 
 
 * Executando o IPED [https://github.com/sepinf-inc/IPED/wiki/Beginner's-Start-Guide]
+
+
 Primeiro passo e ter uma imagem do disco ou pendrive e etc (pode ser obter através do comando DD do linux e demais ferramentas ou casesSuites de Hardwares);
 No meu caso tenho uma imagem do Windows 7 e vai gerar o conteudo indexado na pasta ../evidencias/INDEXIPED
 ```bash
@@ -219,6 +223,7 @@ java -jar iped.jar -d ../evidencias/IE10WIN7-20180115-181028.img  -o ../evidenci
 ```
 
 Vizualizando o conteudo basta ir na pasta gerada e rodar o comando (Este passo precisar de interface grafica instalada na maquina Linux, ou seja não pode ser via terminal remoto).
+
 ```bash
 su - usuario
 cd ~/IPED/evidencias/INDEXIPED/indexador
