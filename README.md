@@ -232,7 +232,8 @@ cd ~/IPED/evidencias/INDEXIPED/indexador
 java -jar lib/iped-search-app.jar
 ```
 
-Links de Manuais
+Links de Manuais:
+
 https://servicos.dpf.gov.br/ferramentas/IPED/3.14.5/IPED-Manual_pt-BR.pdf
 https://github.com/sepinf-inc/IPED/wiki/Beginner's-Start-Guide
 
